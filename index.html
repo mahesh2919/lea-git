@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" >
+
+    <title>JSON</title>
+  </head>
+  <body>
+    
+<script>
+var person={
+    "name":"Brad Trraversy",
+    "age":35,
+    "address":{
+        "street":"5 main st",
+        "city":"Boston"
+    },
+    "children":["Brianna", "Nicholas"]
+}
+//person=JSON.stringify(person);
+//person=JSON.parse(person);
+var people=[
+    {
+        name:"Brad",
+        age:35
+    },
+    {
+        name:"John",
+        age:40
+    },
+    {
+        name:"Sara",
+        age:22
+    },
+   
+
+]
+//console.log(people[1].age);
+
+for(var i=0; i<people.length; i++){
+
+console.log(people[i].name);
+
+}
+</script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  </body>
+</html>
